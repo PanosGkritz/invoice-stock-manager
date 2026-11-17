@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Invoices>
+  <Invoice>
+    <SupplierVAT>990000055</SupplierVAT>
+    <Number>LA-90001</Number>
+    <Date>2026-11-16</Date>
+    <Lines>
+      <Line>
+        <ProductCode>VEG-01</ProductCode>
+        <Quantity>40</Quantity>
+        <UnitPrice>1.75</UnitPrice>
+      </Line>
+      <Line>
+        <ProductCode>VEG-05</ProductCode>
+        <Quantity>12</Quantity>
+        <UnitPrice>7.60</UnitPrice>
+      </Line>
+    </Lines>
+    <Totals>
+      <Net>161.20</Net>
+      <VAT>20.96</VAT>
+      <Gross>182.16</Gross>
+    </Totals>
+  </Invoice>
+  <Invoice>
+    <SupplierVAT>990000044</SupplierVAT>
+    <Number>KM-90001</Number>
+    <Date>16/11/2026</Date>
+    <Lines>
+      <Line>
+        <ProductCode>MEA-01</ProductCode>
+        <Quantity>20</Quantity>
+        <UnitPrice>7.50</UnitPrice>
+      </Line>
+    </Lines>
+    <Totals>
+      <Net>150.00</Net>
+      <VAT>19.50</VAT>
+      <Gross>170.00</Gross>
+    </Totals>
+  </Invoice>
+</Invoices>

@@ -1,0 +1,48 @@
+{
+  "invoices": [
+    {
+      "supplier_vat": "990000011",
+      "number": "GV-90001",
+      "date": "2026-11-16",
+      "lines": [
+        {
+          "product_code": "DAI-01",
+          "quantity": 50,
+          "unit_price": "1.22"
+        },
+        {
+          "product_code": "DAI-03",
+          "quantity": 10.5,
+          "unit_price": "9.40"
+        }
+      ],
+      "totals": {
+        "net": "159.70",
+        "vat": "20.76",
+        "gross": "180.46"
+      }
+    },
+    {
+      "supplier_vat": "990000066",
+      "number": "PA-90001",
+      "date": "2026-11-16",
+      "lines": [
+        {
+          "product_code": "DRI-99",
+          "quantity": 24,
+          "unit_price": "0.50"
+        },
+        {
+          "product_code": "DRI-01",
+          "quantity": -5,
+          "unit_price": "0.20"
+        }
+      ],
+      "totals": {
+        "net": "11.00",
+        "vat": "1.43",
+        "gross": "12.43"
+      }
+    }
+  ]
+}
